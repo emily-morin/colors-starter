@@ -56,7 +56,7 @@ footer {
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
+/* Changed the background colors below, March 3 2022 */
 
 @media (min-width: 768px) {
   header {
@@ -73,12 +73,17 @@ footer {
 
   #column-3 {
     background-color: #53b1b1;
+    width: 100%
   }
 
   footer {
     background-color: #f6c624;
   }
   
+  .col-3 {
+    width: 50%;
+  }
+
 }
 
 
@@ -104,4 +109,8 @@ footer {
     background-color: #f7873f;
   }
    
+  .col-3 {
+    width: 33.33%;
+  }
+
 }
